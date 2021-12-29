@@ -4,4 +4,6 @@ The main task in this project was to create a secure ATM Controller class that d
 
 In the Main method I simply included some code to set up an example and implemented a simple console UI that just asks the user for information using text I/O. To briefly outline the steps, the user has to insert a card by typing the name of the card. If the card is compatible with this ATM machine (the user gets a list of compatible cards), it asks the user to type the PIN. If the PIN is correct, the user gets a list of accounts on this card. The user must choose an account by typing the name. The user can either see balance, withdraw, or deposit into the account. For each of these steps, there is a limit on the number of invalid answers the user can give before the program terminates and tells the user they gave too many invalid answers.
 
-One can simply run the main method to "test" how the program works on the console. To do actual testing with many test cases, one could create the test set separately and read it line by line, inputting the text into the appropriate methods in ATMController. 
+One can simply run the main method to "test" how the program works by following the directions printed on the console. To do actual testing with test case sets, one could create the test set separately and read it line by line in the main method, inputting the text into the appropriate methods in ATMController.
+
+To clone this project, 
