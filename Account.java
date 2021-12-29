@@ -2,7 +2,6 @@ class Account {
   private String accountName;
   private int balance;
 
-
   public Account(String accountName, int balance){
     this.accountName = accountName;
     this.balance = balance;
