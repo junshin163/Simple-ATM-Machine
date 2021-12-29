@@ -6,4 +6,4 @@ In the Main method I simply included some code to set up an example and implemen
 
 One can simply run the main method to "test" how the program works by following the directions printed on the console. To do actual testing with test case sets, one could create the test set separately and read it line by line in the main method, inputting the text into the appropriate methods in ATMController. The test set can be made as a simple .txt file with strings like card nam, PIN (which will be converted to int), account name, action number, amount (for deposit and withdraw) in its own line. This way the scanner in the main method can simply read the inputs line by line and pass them onto the ATMController methods. In 
 
-To clone this project, 
+To clone this project, one can simply use the git clone command on terminal after copying the link to this repository.
